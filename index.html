@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci – Photographe professionnelle à Bordeaux</title>
-	<meta name="description" content="Photographe professionnelle à Bordeaux : portraits, mariages, concerts et photos d’entreprise. Créons ensemble des souvenirs uniques. Contact en 24h." />
+	<meta name="description" content="Photographe professionnelle à Bordeaux: portraits, mariages, concerts et photos d’entreprise. Créons ensemble des souvenirs uniques. Contact en 24h." />
+	<link rel="canonical" href="https://www.nina-carducci.com/" />
+	<meta property="og:title" content="Nina Carducci – Photographe professionnelle à Bordeaux" />
+	<meta property="og:description" content="Capturer vos moments les plus précieux grâce à une approche artistique et moderne." />
+	<meta property="og:image" content="https://www.nina-carducci.com/assets/images/nina.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.nina-carducci.com/"/>
+	<meta name="twitter:card" content="summary_large_image">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
-	<link rel="icon" type="image/png" href="./assets/images/favicon.webp" />
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
+	<link rel="icon" type="image/webp" href="./assets/images/favicon.webp"/>
+	<script type="application/ld+json">
+			{
+  				"@context": "https://schema.org",
+  				  "@type": "ProfessionalService",
+  "name": "Nina Carducci",
+  "image": "https://www.nina-carducci.com/assets/images/nina.webp",
+  "description": "Photographe professionnelle à Bordeaux : portraits, mariages, entreprises et événements. Reportages photo en Nouvelle-Aquitaine.",
+  "url": "https://www.nina-carducci.com/",
+  "telephone": "+33556677889",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 avenue Alsace-Lorraine",
+    "postalCode": "33200",
+    "addressLocality": "Bordeaux",
+    "addressRegion": "Nouvelle-Aquitaine",
+    "addressCountry": "FR"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "10:00",
+    "closes": "19:00"
+  }],
+  "sameAs": [
+    "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+  ]
+}
+</script>
 </head>
 <body>
 <div class="top-header">
-	<h3 class="name">Nina Carducci</h3>
-	<nav class="nav">   
+	<h1 class="name">Nina Carducci</h1>
+	<nav class="nav" aria-label="Navigation Principale">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -58,19 +99,23 @@
 		</button>
 	</div>
 </header>
-<div id="about">
+<section id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci, photographe professionnelle">
 	</div>
 	<div id="about-me">
-		<h3 class="about-me__title">A propos de moi</h3>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
-		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+		<h2 class="about-me__title">A propos de moi</h2>
+		<h3 class="about-me__introduction">Photographe professionnelle à Bordeaux, capturer les émotions et raconter des histoires en images a toujours été pour moi une évidence. Depuis mes débuts, je mets ma sensibilité et mon regard au service de vos plus beaux moments.</h3>
+		<p>
+    		Nous passons notre vie à chercher le bonheur, et lorsqu’il se présente, nous voulons le figer à travers des images qui traversent le temps. En tant que photographe portrait, photographe mariage et photographe d'entreprise à Bordeaux et en Nouvelle-Aquitaine, je vous accompagne pour immortaliser ces instants précieux.
+		</p>
+		<p>
+    		Mon approche mêle technique, douceur et spontanéité afin de créer des photographies authentiques, lumineuses et pleines d’émotion. Que ce soit pour un reportage de mariage, une séance portrait ou une prestation professionnelle, je mets tout mon savoir-faire pour raconter votre histoire de la plus belle façon.
+		</p>
 	</div>
-</div>
+</section>
 <section id="gallery">
-	<h3 class="title">Portfolio</h3>
+	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" loading="lazy" alt="Photo du concert d'Aaron Paul" />
@@ -87,19 +132,22 @@
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
 </section>
-<div id="services">
-	<h3 class="title">Mes services</h3>
+<section id="services">
+	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
 				<h3>Shooting photo</h3>
-				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<p>
+					Séance photo personnalisée pour capturer vos plus beaux moments.  
+    				Portraits, photos de couple, famille ou projets artistiques : je réalise vos shootings en Île-de-France et à Bordeaux avec un style naturel et lumineux.
+				</p>
 			</div>
 			<div class="service__price">
 				<h4>350€/demi journée</h4>
@@ -110,7 +158,10 @@
 		<div class="service">
 			<div class="service__description">
 				<h3>Retouches</h3>
-				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+				<p>
+    				Retouches professionnelles pour sublimer vos photos.  
+    				Idéal pour vos portraits, photos de mariage ou vos images d’entreprise. Chaque retouche est réalisée avec précision pour un rendu naturel et harmonieux.
+				</p>
 			</div>
 			<div class="service__price">
 				<h4>50€/photo</h4>
@@ -120,7 +171,10 @@
 		<div class="service">
 			<div class="service__description">
 				<h3>Album photos</h3>
-				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+				<p>
+					Donnez vie à vos souvenirs grâce à un album photo sur mesure.  
+    				Parfait pour conserver un reportage de mariage, un shooting portrait ou vos plus belles images professionnelles. Mise en page élégante et impression de haute qualité.
+				</p>
 			</div>
 			<div class="service__price">
 				<h4>400€ album A4</h4>
@@ -128,34 +182,42 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div class="quote">
+</section>
+<section class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<h3 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h3>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</div>
-<div id="contact">
+</section>
+<section id="contact">
 	<div class="container">
 		<div class="form-container">
-			<h3>Une question ? Une demande de devis ?</h3>
+			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+			<div class="contact-info">
+    			<p class="contact-address">
+        📍 	    	<strong>68 avenue Alsace-Lorraine, 33200 Bordeaux</strong><br>
+        			<a href="https://maps.google.com/?q=68 avenue Alsace-Lorraine 33200 Bordeaux" target="_blank">
+            		Voir l’emplacement sur Google Maps
+        			</a>
+    			</p>
+			</div>
 			<form action="" method="post">
-				<label>Nom</label>
+				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
-				<label>Email</label>
+				<label for="email">Email</label>
 				<input type="email" name="email" id="email">
-				<label>Message</label>
+				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 				<input type="submit" value="Envoyer"/>
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" loading="lazy">
+			<img src="./assets/images/camera.webp" loading="lazy" alt="Illustration d'un appareil photo">
 		</div>
 	</div>
-</div>
+</section>
 </body>
 </html>
